@@ -1,0 +1,81 @@
+
+
+@media only screen and (max-width: 1000px){
+    .navbar-nav .nav-item .nav-link {
+        padding-left: 50px;
+    }
+    .nav-button{
+        visibility: hidden;
+    }
+    .site-title img{
+        transform: scale(0.3);
+    }
+    .site-about {
+        height: 1600px;
+    }
+    .about-title h2{
+        font-size: 50px;
+    }
+    .services-text1, .services-text2, .services-text3, .services-text4, .services-text5, .services-text6{
+        margin-left: 50px;
+    }
+    .portfolio-title h2{
+        font-size: 6vh;
+    }
+    .site-contact{
+        height: 600px;
+    }
+    .site-portfolio{
+        height: 800px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 990px){
+    .services-text1, .services-text2, .services-text3, .services-text4, .services-text5, .services-text6{
+        text-align: center;
+       
+    }
+    
+}
+@media only screen and (max-width: 700px){
+    .portfolio-img img{
+        transform: scale(3);
+    }
+    .site-portfolio{
+        height: 800px;
+    }
+    .site-contact {
+        padding-right: 30px;
+        margin-left: -100px;
+        height: 600px;
+    }
+    .contact-title h2 {
+        font-size: 7vw;
+    }
+    .contact-discord h3, .contact-email h3, .contact-twitter h3{
+        font-size: 5vw;
+    }
+    .contact-discord h4, .contact-email h4, .contact-twitter h4 {
+        font-size: 3vw;
+    }
+    .site-title h1{
+        font-size: 10vw;
+    }
+
+}
+@media only screen and (max-width: 1450px) {
+    .site-logo img{
+        visibility: hidden;
+    }
+    .site-banner {
+        height: 530px;
+    }
+    
+}
+@media only screen and (max-width: 1800px){
+    .site-banner {
+        height: 530px;
+    }
+}

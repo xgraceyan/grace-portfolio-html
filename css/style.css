@@ -1,0 +1,318 @@
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background: #6699ff;               
+}
+::-moz-selection{
+    background: #1effff;
+}
+
+.body {
+    width: 100%;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.main-menu{
+    margin-top: -10px;
+}
+.header-area .main-menu .navbar-brand img{
+    transform: scale(0.5);
+    margin-left: 50px;
+}
+.nav-button{
+    color: #535353;
+    transform: scale(1.5);
+    margin-right: 50px;
+}
+.nav-button:hover{
+    color: #376bd1;
+    transition: ease-in-out 0.2s;
+}
+.navbar-nav .nav-link{
+    font-family: var(--sfpro);
+    font-size: 20px;
+    margin-right: 20px;
+    color: #535353;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #376bd1;
+    transition: ease-in-out 0.2s;
+}
+
+.navbar-nav .nav-item.active .nav-link{
+    color: #376bd1;
+    font-weight: 600;
+}
+.navbar-nav .nav-link img{
+    transform: scale(0.7);
+    margin-top: -10px;
+}
+
+.site-scroll p > a > i{
+    font-size: 5vw;
+    margin-top: 200px;
+    color: #535353;
+    cursor: pointer;
+}
+
+/*site-banner*/
+
+.site-banner{
+    height: 800px;
+}
+.site-title h1{
+    font-family: var(--sfpro);
+    font-weight: 700;
+    font-size: 7vw;
+    margin-top: 50px;
+    text-align: center;
+
+}
+.site-title {
+    animation-duration: 3s;
+}
+.navbar{
+    animation: fadeInDown;
+    animation-duration: 2s;
+    animation-delay: 0.2s;
+}
+.site-img img{
+    margin-top: 150px;
+    width: 100%;
+    transform: scale(1.7152);
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.site-title h4{
+    font-family: var(--mont);
+    color: #535353;
+    font-size: 3vw;
+    text-align: center;
+    
+    margin-top: 40px;
+}
+.site-title img{
+    transform: scale(0.5);
+    margin-left: 250px;
+}
+
+.site-title span{
+    color: #535353;
+    transform: scale(3);
+  margin-left: 60px;
+  margin-top: 90px;
+}
+
+.site-title span:hover{
+    color: #376bd1;
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
+}
+.site-title img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+.site-about{
+    background-color: #376bd1;
+    height: 850px;
+
+    
+}
+.site-about .about-title img{
+    transform: scale(0.6);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+.about-title h2{
+    font-family: var(--sfpro);
+    color: white;
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.services-text1, .services-text2, .services-text3, .services-text4, .services-text5, .services-text6{
+    font-family: var(--mont);
+    color: white;
+    text-align: center;
+}
+.services-text1 h3, .services-text2 h3, .services-text3 h3, .services-text4 h3, .services-text5 h3, .services-text6 h3{
+    font-weight: 700;
+    text-align: center;
+    font-family: var(--sfpro);
+}
+.services-text1, .services-text2, .services-text3 {
+    margin-top: 100px;
+    padding-left: 50px;
+}
+
+.col-lg-4.col-md-8 {
+    padding-right: 100px;
+}
+.services-text4, .services-text5, .services-text6{
+    margin-top: 50px;
+    align-content: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 50px;
+}
+.site-portfolio{
+    background-color: white;
+    height: 1000px;
+}
+.portfolio-title h2{
+    font-family: var(--sfpro);
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+
+}
+.portfolio-title img{
+    transform: scale();
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.portfolio-img{
+    display: block;
+    margin-left: auto;
+
+
+    transform: scale(0.5);
+    text-align: center;
+}
+.portfolio-img img {
+    transform: scale(2);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.portfolio-button{
+    margin: 0 auto;
+    margin-top: 400px;
+    background-color: #376bd1;
+    transform: scale(3);
+    border-radius: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    color: white;
+    font-family: var(--mont);
+    font-weight: 700;
+    box-shadow: var(--shadow-color);
+
+}
+.portfolio-button:hover{
+    background-color: rgb(238, 238, 238);
+    color: #376bd1;
+    border: 2px solid #376bd1;
+    transition: ease-in-out 0.3s;
+}
+
+
+.site-contact {
+    background-color: #202020;
+    height: 1000px;
+    padding-left: 150px;
+}
+.contact-title h2{
+    color: white;
+    font-family: var(--sfpro);
+    font-size: 4.5vw;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.contact-discord svg{
+    position: absolute;
+
+    width: 100%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact-discord h3, .contact-email h3, .contact-twitter h3{
+    color: white;
+    font-family: var(--mont);
+    font-weight: 700;
+    font-size: 4vw;
+}
+.contact-discord h3:hover, .contact-email h3:hover, .contact-twitter h3:hover{
+    cursor: pointer;
+    color: #376bd1;
+    transition: ease-in-out 0.3s;
+}
+.contact-discord h4, .contact-email h4, .contact-twitter h4{
+    font-family: var(--mont);
+    font-size: 1.5vw;
+    margin-top: 50px;
+    color: #376bd1;
+}
+
+
+.contact-discord h4 > a, .contact-email h4 > a, .contact-twitter h4 > a{
+    font-weight: 100;
+    color: #376bd1;
+    margin-left: 50px;
+}
+footer.footer-area {
+    height: 200px;
+
+    background: #ffffff;
+}
+.site-logo{
+    text-align: left;
+    margin-top: 100px;
+    max-width: 100%;
+    height: auto;
+    margin-left: 200px;
+}
+.footer-copyright h4{
+    font-family: var(--sfpro);
+    color: #535353;
+    font-weight: 700;
+    font-size: 2.5vh;
+    margin-top: -100px;
+}
+.footer-copyright p{
+    font-family: var(--mont);
+    font-size: 2vh;
+    color: #353535;
+    padding-bottom: 100px;
+}
+.footer-copyright p > a{
+    color: #376bd1;
+}
+.custom-toggler.navbar-toggler {
+    border-color: rgb(255, 255, 255);
+}
+
+
